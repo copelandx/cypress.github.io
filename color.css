@@ -401,6 +401,9 @@ footer {
     }
 }
 
+a {
+    text-decoration: none;
+}
 
 .mainHeader {
     width: 70vw;
