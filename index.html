@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="color.css">
+    <link rel="stylesheet" href="tabs.css">
+    <link rel="stylesheet" href="table.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="nav.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header class="header-banner-top">
+        <div class="main-navigation">
+            <input type="checkbox" name="mobile-menu-toggle" id="mobile-menu-toggle" class="mobile-menu-box" />
+            <nav class="horizontal-nav primary-wrapper" role='navigation'>
+                <ul>
+                    <li href="https://discord.gg/V458WPut74" target="_blank"><a href="#">Support Server</a></li>
+                    <li><a href="https://status.cypressbot.cc/" target="_blank">Status</a></li>
+                    <!--<li class="folder" style="display: hidden;"> 
+                  <input type="checkbox" name="folder-toggle-1" id="folder-toggle-1" class="folder-toggle-box hidden" />
+                  <label for="folder-toggle-1" class="folder-toggle-label"><a>Terms of Service</a></label>
+                  <ul>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Linkus</a></li>
+                    <li><a href="#">Linkorama</a></li>
+                    <li><a href="#">Link</a></li>
+                  </ul>
+                </li>-->
+                    <li style="color: grey;">Dashboard <span id="SP" class="add">COMING SOON</span></li>
+                </ul>
+            </nav>
+            <label for="mobile-menu-toggle" class="mobile-menu-label hidden"></label>
+        </div>
+    </header>
+
+
+
+    <div class="main">
+        <div class="logo"></div>
+        <div class="cloud1"></div>
+        <div class="cloud2"></div>
+        <div class="cloud3"></div>
+
+        <span class="InviteBtn">
+            <button class="CartBtn">
+                <span class="IconContainer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 48 48"
+                        id="discord">
+                        <rect width="48" height="48" fill="#5865f2" rx="24"></rect>
+                        <path fill="#fff"
+                            d="M36.0367 15.7798C33.8349 14.0183 31.1927 13.1376 28.4037 12.9908L27.9633 13.4312C30.4587 14.0183 32.6606 15.1926 34.7156 16.8073C32.2202 15.4862 29.4312 14.6055 26.4954 14.3119C25.6147 14.1651 24.8807 14.1651 24 14.1651C23.1193 14.1651 22.3853 14.1651 21.5046 14.3119C18.5688 14.6055 15.7798 15.4862 13.2844 16.8073C15.3394 15.1926 17.5413 14.0183 20.0367 13.4312L19.5963 12.9908C16.8073 13.1376 14.1651 14.0183 11.9633 15.7798C9.46789 20.4771 8.14679 25.7615 8 31.1926C10.2018 33.5413 13.2844 35.0092 16.5138 35.0092C16.5138 35.0092 17.5413 33.8349 18.2752 32.8073C16.367 32.367 14.6055 31.3394 13.4312 29.7248C14.4587 30.3119 15.4862 30.8991 16.5138 31.3394C17.8349 31.9266 19.156 32.2202 20.4771 32.5138C21.6514 32.6605 22.8257 32.8073 24 32.8073C25.1743 32.8073 26.3486 32.6605 27.5229 32.5138C28.844 32.2202 30.1651 31.9266 31.4862 31.3394C32.5138 30.8991 33.5413 30.3119 34.5688 29.7248C33.3945 31.3394 31.633 32.367 29.7248 32.8073C30.4587 33.8349 31.4862 35.0092 31.4862 35.0092C34.7156 35.0092 37.7982 33.5413 40 31.1926C39.8532 25.7615 38.5321 20.4771 36.0367 15.7798ZM19.156 28.5504C17.6881 28.5504 16.367 27.2293 16.367 25.6147C16.367 24 17.6881 22.6789 19.156 22.6789C20.6239 22.6789 21.945 24 21.945 25.6147C21.945 27.2293 20.6239 28.5504 19.156 28.5504ZM28.844 28.5504C27.3761 28.5504 26.055 27.2293 26.055 25.6147C26.055 24 27.3761 22.6789 28.844 22.6789C30.3119 22.6789 31.633 24 31.633 25.6147C31.633 27.2293 30.3119 28.5504 28.844 28.5504Z">
+                        </path>
+                    </svg>
+                </span>
+                <p class="text">Add to Server</p>
+            </button>
+        </span>
+    </div>
+
+    <div class="options">
+        <div class="content statement1"></div>
+        <div class="content text1">
+            <img src="./images/tickets.svg" height="80px" width="80px" alt=""><br>
+            <h3>Ticket Handling</h3><br>
+            <p>
+                Cypress offers preimum tickets and ticket handling absolutly free ! Your table to set where and when to
+                run tickets. When users open a ticket, its raid proof, so one ticket per customer. In addition, both
+                client and admins get ticket transcripts.
+                <br><br>
+                If you see or want any additional suggetsions join our support server and let us know !!
+            </p>
+        </div>
+    </div>
+
+    <div class="options mobileOption">
+        <div class="content text1">
+            <img src="./images/cogs.svg" height="80px" width="80px" alt=""><br>
+            <h3>Custom Settings</h3><br>
+            <p>
+                Cypress offers preimum tickets and ticket handling absolutly free ! Your table to set where and when to
+                run tickets. When users open a ticket, its raid proof, so one ticket per customer. In addition, both
+                client and admins get ticket transcripts.
+                <br><br>
+                If you see or want any additional suggetsions join our support server and let us know !!
+            </p>
+        </div>
+        <div class="content statement2"></div>
+    </div>
+
+    <div class="options">
+        <div class="content statement3"></div>
+        <div class="content text1">
+            <img src="./images/music.svg" height="80px" width="80px" alt=""><br>
+            <h3>Do I hear music ?</h3><br>
+            <p>
+
+                Right now its in beta and not public yet, but our goal is to also provide music and music events .
+                <br><br>
+                Commands and syntax <span style="color: #6dfac6; opacity: 1 !important;">
+                    <b> [ coming soon]</b>
+                </span>
+            </p>
+        </div>
+    </div>
+
+    <br><br>
+
+    <h1 class="mainHeader">
+
+        <div class="middleHeader">
+            <img src="./images/code.gif" height="25px" width="25px" alt="">
+            Bot Commands
+        </div>
+
+        <div class="leaf1">
+            <svg xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                    d="M272 96c-78.6 0-145.1 51.5-167.7 122.5c33.6-17 71.5-26.5 111.7-26.5h88c8.8 0 16 7.2 16 16s-7.2 16-16 16H288 216s0 0 0 0c-16.6 0-32.7 1.9-48.2 5.4c-25.9 5.9-50 16.4-71.4 30.7c0 0 0 0 0 0C38.3 298.8 0 364.9 0 440v16c0 13.3 10.7 24 24 24s24-10.7 24-24V440c0-48.7 20.7-92.5 53.8-123.2C121.6 392.3 190.3 448 272 448l1 0c132.1-.7 239-130.9 239-291.4c0-42.6-7.5-83.1-21.1-119.6c-2.6-6.9-12.7-6.6-16.2-.1C455.9 72.1 418.7 96 376 96L272 96z" />
+            </svg>
+        </div>
+        <div class="leaf2">
+            <svg xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                    d="M0 32c477.6 0 366.6 317.3 367.1 366.3L448 480h-26l-70.4-71.2c-39 4.2-124.4 34.5-214.4-37C47 300.3 52 214.7 0 32zm79.7 46c-49.7-23.5-5.2 9.2-5.2 9.2 45.2 31.2 66 73.7 90.2 119.9 31.5 60.2 79 139.7 144.2 167.7 65 28 34.2 12.5 6-8.5-28.2-21.2-68.2-87-91-130.2-31.7-60-61-118.6-144.2-158.1z" />
+            </svg>
+        </div>
+    </h1>
+
+    <section class="tabs">
+        <ul class="tabs__header">
+            <li class="tabs__header--title js-tabs-title active" data-tab="#tab-1">Moderation</li>
+            <li class="tabs__header--title js-tabs-title" data-tab="#tab-2">Public</li>
+            <li class="tabs__header--title js-tabs-title" data-tab="#tab-3">Information</li>
+        </ul>
+        <div class="tabs__underline js-tabs-underline"></div>
+        <article class="tabs__content js-tabs-content active" id="tab-1">
+            <div class="container">
+                <ul class="responsive-table">
+                    <li class="table-header">
+                        <div class="col col-1">Command |  <span id="optional">Optional</span></div>
+                        <div class="col col-2">Summary</div>
+                    </li>
+                    <li class="table-row ">
+                        <div class="col col-1">
+
+                            /clear
+                            
+                            <span id="parameter1">amount</span><span id="parameter2"> 20</span>
+                            <span id="optional1">target</span><span id="optional2"><span id="user">@James</span></span>
+                        </div>
+                        <div class="col col-2">
+                            Clear a spefific amount of messages from a target or channel
+                        </div>
+                    </li>
+                    <li class="table-row ">
+                        <div class="col col-1">
+
+                            /createverify
+                            
+                            <span id="parameter1">Channel</span><span id="parameter2"> #welcome</span>
+
+                        </div>
+                        <div class="col col-2">
+                            Set your verification channel | <span id="warn">MUST have welcome role set</span>
+                        </div>
+                    </li><li class="table-row ">
+                        <div class="col col-1">
+
+                            /mute
+                            
+                            <span id="parameter1">target</span><span id="parameter2"><span id="user">@James</span></span>
+                            <span id="parameter1">time</span><span id="parameter2">30m</span>
+                            <span id="optional1">reason</span><span id="optional2">Reason here</span>
+                        </div>
+                        <div class="col col-2">
+                            Mute a member from this guild
+                        </div>
+                    </li><li class="table-row ">
+                        <div class="col col-1">
+
+                            /say
+                            
+                            <span id="parameter1">message</span><span id="parameter2">Beep Boop</span>
+                            <span id="optional1">color</span><span id="optional2">#FFF / white</span>
+                        </div>
+                        <div class="col col-2">
+                            pretend to the be the bot :3
+                        </div>
+                    </li><li class="table-row ">
+                        <div class="col col-1">
+
+                            /setup-suggest
+                            
+                            <span id="parameter1">channel</span><span id="parameter2">#suggest</span>
+
+                        </div>
+                        <div class="col col-2">
+                            Point to a channel to handle all suggestions !
+                        </div>
+                    </li><li class="table-row ">
+                        <div class="col col-1">
+
+                            /setup-tickets
+                            
+                            <span id="parameter1">category</span><span id="parameter2">Tickets</span>
+                        </div>
+                        <div class="col col-2">
+                            Point to a category to handle all incoming tickets
+                        </div>
+                    </li><li class="table-row ">
+                        <div class="col col-1">
+
+                            /setup-welcome
+                            
+                            <span id="parameter1">channel</span><span id="parameter2">#welcome</span>
+                        </div>
+                        <div class="col col-2">
+                            Set up your welcome channel for the bot | Leave blank to turn off welcome messages
+                        </div>
+                    </li><li class="table-row ">
+                        <div class="col col-1">
+
+                            /setup-welcome-msg
+                            
+                            <span id="parameter1">message</span><span id="parameter2">Welcome [member]</span>
+                        </div>
+                        <div class="col col-2">
+                            Set up your welcome message for the bot
+                        </div>
+                    </li><li class="table-row ">
+                        <div class="col col-1">
+
+                            /setup-welcome-role
+                            
+                            <span id="parameter1">welcome-role</span><span id="parameter2">@NewComer</span>
+                        </div>
+                        <div class="col col-2">
+                            Set up a role for new comers !
+                        </div>
+                    </li>
+                    <li class="table-row ">
+                        <div class="col col-1">
+
+                            /ticket
+                            
+                            <span id="parameter1">events</span><span id="parameter2">Start</span>
+
+                        </div>
+                        <div class="col col-2">
+                            Enables Ticketing events | <span id="warn">Run /setup-tickets before this command</span>
+                        </div>
+                    </li>
+                    <li class="table-row ">
+                        <div class="col col-1">
+
+                            /ticket
+                            
+                            <span id="parameter1">events</span><span id="parameter2">Turn off</span>
+                        </div>
+                        <div class="col col-2">
+                            Disables users from creating tickets
+                        </div>
+                    </li>
+                    <li class="table-row ">
+                        <div class="col col-1">
+
+                            /ticket
+                            
+                            <span id="parameter1">events</span><span id="parameter2">Admin</span>
+                        </div>
+                        <div class="col col-2">
+                            Resolve or Close a ticket | <span id="warn">Must be in a ticket channel to run this</span>
+                        </div>
+                    </li>
+                    <li class="table-row ">
+                        <div class="col col-1">
+
+                            /unban
+                            
+                            <span id="parameter1">userid</span><span id="parameter2">12345678</span>
+                        </div>
+                        <div class="col col-2">
+                            Unban a user from the discord server
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </article>
+        <article class="tabs__content js-tabs-content" id="tab-2">
+
+        </article>
+        <article class="tabs__content js-tabs-content" id="tab-3">
+
+        </article>
+    </section>
+
+
+    <img src="./images/footer_1@4x.png" class="footerImage" alt="">
+
+    <footer>
+
+        <div class="footer"><!--
+            <div class="row">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>-->
+
+            <div class="row">
+                <ul>
+                    <li><a href="#">Support Discord</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Gods Groove <span id="SP">AD</span></a></li>
+                    <li><a href="#">NetworkNexus <span id="SP">AD</span></a></li>
+                </ul>
+            </div>
+
+            <div class="row">
+                Cypress Copyright © <span id="year"></span> - All rights reserved || Made with 💚 - <a
+                    href="https://copelandx.com" target="_blank" rel="noopener noreferrer">Copelandx</a>
+            </div>
+        </div>
+        <script>
+            const currentYear = new Date().getFullYear();
+            console.log(currentYear);
+            document.getElementById('year').innerHTML = currentYear;
+        </script>
+    </footer>
+    <script src="scripts.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+</body>
+
+</html>

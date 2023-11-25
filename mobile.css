@@ -1,0 +1,124 @@
+@media screen and (max-width: 1200px) {
+    body .options {
+        
+        display: flex;
+        display:-webkit-flex;
+        display:flex;
+        -webkit-flex-wrap:wrap;
+        flex-wrap:wrap;
+        -webkit-justify-content:center;
+        justify-content:center;
+        
+        width: 100vw;
+        height: fit-content;
+        margin-top: 100px;
+    }
+
+    .InviteBtn {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        position: absolute;
+        width: fit-content;
+        top: 111px;
+    }
+
+    .mobileOption {
+        -webkit-flex-wrap:wrap-reverse !important;
+        flex-wrap:wrap-reverse !important;
+    }
+
+    .main {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        height: 400px;
+        width: 100vw;
+        overflow: hidden;
+        background: transparent;
+        background-image: url(./images/background_1@4x.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top: 0px;
+        display: block;
+        position: relative;
+    }
+
+    .cloud1, .cloud2, .cloud3 {
+        display: none;
+    }
+
+    body .options .content {
+        display: block;
+        width: 95vw;
+        height: 300px;
+    }
+
+    .text1 p {
+        width: 95%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        font-size: 14px;
+        font-weight: lighter;
+        opacity: .6;
+    }
+
+    body .options .text1 {
+        display: block;
+        width: 100vw;
+        height: fit-content !important;
+    }
+
+    .mainHeader {
+        width: 70vw;
+        left: 0; right: 0;
+        margin: 0 auto;
+        background: transparent;
+        padding: 10px 25px;
+        color: white;
+        text-align: center;
+        font-weight: bolder;
+        border-radius: 10px;
+        margin-top: 100px;
+        position: relative;
+        margin-bottom: 50px;
+        overflow: hidden;
+        background-image: linear-gradient(0deg, #00ae6e5c, #00ae6e00);
+    }
+    
+    .mainHeader svg, 
+    .mainHeader img {
+        margin-right: 10px;
+        position: relative;
+        display: none;
+        
+        height: 40px;
+        width: 40px;
+    }
+    
+    .mainHeader .middleHeader {
+        left: 0; right: 0; margin: 0 auto; height: 100%; border: red solid 0px;
+        width: fit-content; position: relative;
+        text-align: center;
+    }
+    
+    .mainHeader .middleHeader img {
+        float: left; height: 40px; height: 40px; filter: invert(100%);
+    }
+    
+    .mainHeader .leaf1 svg , .mainHeader .leaf2 svg {
+        display: none;
+    }
+
+    
+    #warn {
+        background: #f3394f54; padding: 5px 10px; 
+        border-radius: 5px;margin-left: 0px;
+        margin-top:5px;
+        font-size: 12px; letter-spacing: 1.5px;
+        align-content: center; color: #fff;
+        border: 1px solid #f3394f;
+    }
+}

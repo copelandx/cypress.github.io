@@ -1,0 +1,450 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url('/Poppins/Poppins-Regular.ttf');
+}
+
+*,
+html {
+    padding: unset;
+    margin: unset;
+    box-sizing: border-box;
+    border: 0px red solid;
+}
+
+body {
+    background: #00100b;
+    font-family: myFirstFont;
+    overflow-x: hidden;
+    position: relative;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #00100b;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #00aa6d;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #00aa6d;
+}
+
+.main .logo {
+    background-image: url('./images/logo.svg');
+    left: 0;
+    right: 0;
+    top: 50px;
+    position: relative;
+    margin: 0 auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 170px;
+    height: 40px;
+}
+
+.main .cloud1 {
+    background-image: url('./images/cloud1.png');
+    position: absolute;
+    right: 140px;
+    top: 50px;
+    opacity: .4;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70px;
+    width: 130px;
+    animation-name: cloud1;
+    animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    /* Chrome, Safari, Opera */
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.main .cloud2 {
+    background-image: url('./images/cloud2.png');
+    position: absolute;
+    top: 180px;
+    left: 150px;
+    opacity: .3;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 120px;
+    height: 60px;
+    animation-name: cloud2;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    -webkit-animation-timing-function: linear;
+    /* Chrome, Safari, Opera */
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.main .cloud3 {
+    background-image: url('./images/cloud3.png');
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    opacity: .2;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 70px;
+    height: 40px;
+    animation-name: cloud3;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    -webkit-animation-timing-function: linear;
+    /* Chrome, Safari, Opera */
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes cloud1 {
+    from {
+        right: 140px;
+    }
+
+    to {
+        right: 120px;
+    }
+}
+
+@keyframes cloud2 {
+    from {
+        left: 150px;
+    }
+
+    to {
+        left: 130px;
+    }
+}
+
+@keyframes cloud3 {
+    from {
+        left: 150px;
+    }
+
+    to {
+        left: 120px;
+    }
+}
+
+.main {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    height: 500px;
+    width: 900px;
+    background: transparent;
+    background-image: url('./images/background_1@4x.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    display: block;
+    position: relative;
+}
+
+
+body .options {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+    
+    width: 900px;
+    height: 300px;
+    margin-top: 100px;
+}
+
+
+
+body .options .content {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    width: 50%;
+}
+
+.statement1 {
+    background-image: url('./images/option1.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.statement2 {
+    background-image: url('./images/option2.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.statement3 {
+    background-image: url('./images/music_2.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+#SP {
+    font-size: 9px;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+    opacity: 1 !important;
+    color: #119988;
+    margin-left: 5px;
+    padding: 5px 12px;
+    background: #052d28;
+    border-radius: 20px;
+}
+
+.text1 {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.text1 p {
+    width: 80%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: 12px;
+    font-weight: lighter;
+    opacity: .6;
+}
+
+footer {
+    background: #000d09;
+    width: 100vw;
+    height: fit-content;
+    margin-top: 190px;
+    position: relative;
+    z-index: 10000 !important;
+    border: 0px yellow solid;
+
+    padding: 30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+}
+
+.CartBtn {
+    width: 180px;
+    height: 40px;
+    border-radius: 12px;
+    border: none;
+    background-color: #5865f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: .5s;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.103);
+    position: relative;
+}
+
+.IconContainer {
+    position: absolute;
+    left: -50px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 2;
+    transition-duration: .5s;
+}
+
+.icon {
+    border-radius: 1px;
+}
+
+.text {
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    z-index: 1;
+    transition-duration: .5s;
+    font-size: 1.04em;
+    font-weight: 600;
+}
+
+.CartBtn:hover .IconContainer {
+    transform: translateX(62px);
+    border-radius: 40px;
+    transition-duration: .5s;
+}
+
+.CartBtn:hover .text {
+    transform: translate(10px, 0px);
+    transition-duration: .5s;
+}
+
+.CartBtn:active {
+    transform: scale(0.95);
+    transition-duration: .5s;
+}
+
+.InviteBtn {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: absolute;
+    width: fit-content;
+    top: 130px;
+}
+
+.footerImage {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 10px;
+    max-width: 100vw;
+    object-fit: contain;
+    z-index: -10 !important;
+}
+
+
+.footer .row {
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.6% 0%;
+    color: gray;
+    font-size: 0.8em;
+}
+
+.footer .row a {
+    text-decoration: none;
+    color: gray;
+    transition: 0.5s;
+}
+
+.footer .row a:hover {
+    color: #fff;
+}
+
+.footer .row ul {
+    width: 100%;
+}
+
+.footer .row ul li {
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.footer .row a i {
+    font-size: 2em;
+    margin: 0% 1%;
+}
+
+@media (max-width:720px) {
+
+    footer {
+        margin-top: unset !important;
+    }
+
+    .footer {
+        text-align: left;
+        padding: 5%;
+    }
+
+    .footer .row ul li {
+        display: block;
+        margin: 10px 0px;
+        text-align: left;
+    }
+
+    .footer .row a i {
+        margin: 0% 3%;
+    }
+}
+
+
+.mainHeader {
+    width: 70vw;
+    left: 0; right: 0;
+    margin: 0 auto;
+    background: transparent;
+    padding: 10px 25px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-top: 100px;
+    position: relative;
+    margin-bottom: 50px;
+    overflow: hidden;
+    background-image: linear-gradient(90deg, #00ae6e5c, #00ae6e00, #00ae6e5c);
+}
+
+.mainHeader svg, 
+.mainHeader img {
+    margin-right: 20px;
+    position: relative;
+    display: inline;
+    
+    height: 40px;
+    width: 40px;
+}
+
+.mainHeader .middleHeader {
+    left: 0; right: 0; margin: 0 auto; height: 100%; border: red solid 0px;
+    width: fit-content; position: relative;
+}
+
+.mainHeader .middleHeader img {
+    float: left; height: 40px; height: 40px; filter: invert(100%);
+}
+
+.mainHeader .leaf1 svg {
+    position: absolute; bottom: -5px; left: 20px;
+    rotate: -90deg;
+    fill: #00aa6d; height: 45px;
+}
+
+.mainHeader .leaf2 svg {
+    position: absolute; top: 0; right: 0;
+    fill: #00aa6d; height: 45px;
+}

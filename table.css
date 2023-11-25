@@ -1,0 +1,194 @@
+.test, .test * {
+	border: 1px solid red;
+}
+
+body {
+  font-family: "lato", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.responsive-table li {
+  border-radius: 3px;
+  padding: 25px 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.responsive-table .table-header {
+  background-color: #001715;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.responsive-table .table-row {
+  background-color: #383a40;
+	color: white;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+}
+.responsive-table .col-1 {
+	display: flex;
+  flex-direction: row;
+  text-align: left;
+  flex-basis: 50%;
+}
+.responsive-table .col-2 {
+	display: flex;
+  flex-direction: row;
+  text-align: left;
+  flex-basis: 50%;
+}
+.responsive-table .col-3 {
+	display: flex;
+  flex-direction: row;
+  text-align: center;
+  flex-basis: 50%;
+}
+.responsive-table .col-4 {
+	display: flex;
+  flex-direction: row;
+  text-align: center;
+  flex-basis: 50%;
+}
+@media all and (max-width: 767px) {
+  .responsive-table .table-header {
+    display: none;
+  }
+	
+  .responsive-table .col {
+    flex-basis: 100%;
+  }
+  .responsive-table .col {
+    display: flex;
+    padding: 10px 0;
+		flex-direction: column;
+  }
+  .responsive-table .col:before {
+    color: #6C7A89;
+    padding-right: 10px;
+    content: attr(data-label);
+    flex-basis: 10%;
+		flex-wrap: wrap;
+    text-align: left;
+  }
+	
+	.commandArea {
+    width: 90%; position: relative;
+    background: #383a40; border-radius: 10px;
+    padding: 10px; margin: 10px !important; display: block;
+	}
+
+	#parameter1 {
+			display: block ;text-align: center;
+			background: #111214; padding: 5px 10px; 
+			border-radius: 5px 0px 0px 5px;
+			font-size: 12px; letter-spacing: 1.5px;
+			align-content: center; margin: unset !important;
+			margin-top: 10px !important;
+	}
+
+	#parameter2 {
+			display: block;text-align: center;
+			background: #232428; padding: 5px 10px; 
+			border-radius: 0px 5px 5px 0px;
+			font-size: 12px; letter-spacing: 1.5px;
+			align-content: center;
+	}
+
+	#user {
+			background: #323765; padding: 2px 5px;
+			border-radius: 5px; color: #c9cdf1;
+			font-weight: bold;
+	}
+
+  .responsive-table .col-2 {
+    text-align: left;
+    flex-basis: 50%;
+    padding: 20px 20px;
+  }
+}
+
+.commandArea {
+    width: 90%; position: relative;
+    background: #383a40; border-radius: 10px;
+    padding: 10px; margin: 10px !important; display: block;
+}
+
+.commandArea img {
+    display: block;
+    left: -40px; top: 10px; 
+}
+
+#parameter1 {
+    background: #111214; padding: 5px 10px; 
+    border-radius: 5px 0px 0px 5px;
+    font-size: 12px; letter-spacing: 1.5px;
+    align-content: center; margin-left: 10px;
+    height: fit-content;
+}
+
+#parameter2 {
+    background: #232428; padding: 5px 10px; 
+    border-radius: 0px 5px 5px 0px;
+    font-size: 12px; letter-spacing: 1.5px;
+    align-content: center;
+    height: fit-content;
+}
+
+#optional1 {
+  background: #3E3410; padding: 5px 10px; 
+  border-radius: 5px 0px 0px 5px; color: #fe9000; font-weight: bold;
+  font-size: 12px; letter-spacing: 1.5px;
+  align-content: unset; margin-left: unset !important;
+  text-align: center;
+}
+
+#optional2 {
+  background: #fe900023; padding: 5px 10px; 
+  border-radius: 0px 5px 5px 0px;
+  font-size: 12px; letter-spacing: 1.5px;
+  align-content: unset;
+  text-align: center;
+}
+
+#user {
+    background: #323765; padding: 2px 5px;
+    border-radius: 5px; color: #c9cdf1;
+    font-weight: bold;
+}
+
+#optional {
+  background: #fe90003e; padding: 5px 10px; position: relative; top: -3px;
+  border-radius: 5px; color: #fe9000; margin-left: 10px;
+  letter-spacing: 1.5px;
+  font-weight: bold; font-size: 12px; text-transform: none !important;
+}
+
+
+#optional1 {
+  background: #3E3410; padding: 5px 10px; 
+  border-radius: 5px 0px 0px 5px; color: #fe9000; font-weight: bold;
+  font-size: 12px; letter-spacing: 1.5px;
+  align-content: center; margin-left: 10px;
+}
+
+#optional2 {
+  background: #fe900023; padding: 5px 10px; 
+  border-radius: 0px 5px 5px 0px;
+  font-size: 12px; letter-spacing: 1.5px;
+  align-content: center;
+}
+
+#warn {
+  background: #f3394f54; padding: 5px 10px; 
+  border-radius: 5px;margin-left: 10px;
+  font-size: 12px; letter-spacing: 1.5px;
+  align-content: center; color: #fff;
+  border: 1px solid #f3394f;
+}
